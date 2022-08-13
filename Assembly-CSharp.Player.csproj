@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9C541D7-147C-E4BA-9D02-489E6FA389AE}</ProjectGuid>
+    <ProjectGuid>{05A028BE-C2B1-1F9E-EBCA-963F0685541E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,9 +59,10 @@
     <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Pounder.cs" />
-    <Compile Include="Assets\Scripts\SphereEnemy.cs" />
     <Compile Include="Assets\Scripts\Booster.cs" />
     <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
+    <Compile Include="Assets\Scripts\SphereEnemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerObstacleCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -631,19 +632,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{BE76FFCF-5FA1-38A5-6F35-E50928739725}</Project>
+      <Project>{5B23B7C4-068E-928F-F5C4-04E941D77ED6}</Project>
       <Name>Cinemachine.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{290C30C8-AC33-80F0-F2B5-E9069CB40B2B}</Project>
+      <Project>{39249B3F-ADFD-60CB-1524-C1EA88007B42}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{6288E2A7-1FB8-0B1D-1AB3-5804D2D0F22C}</Project>
+      <Project>{A0DB15E7-EA14-3B9B-7A75-6CC659C6DFCC}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{D0D16568-583B-9D27-219A-D2A9261E3B9A}</Project>
+      <Project>{F29286F8-654F-364E-20A4-0907C389440F}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

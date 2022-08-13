@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7299416B-76C1-130F-4018-F25FF8075514}</ProjectGuid>
+    <ProjectGuid>{CC98209B-61F7-138D-C448-64258EC9E0F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,9 +59,10 @@
     <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Pounder.cs" />
-    <Compile Include="Assets\Scripts\SphereEnemy.cs" />
     <Compile Include="Assets\Scripts\Booster.cs" />
     <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
+    <Compile Include="Assets\Scripts\SphereEnemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerObstacleCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -634,51 +635,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{D161B103-F89D-2D24-B860-B22F3A6106C8}</Project>
+      <Project>{9DFC98C0-26A3-98AC-530E-C7BF6295838F}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{F200C654-4721-1BA3-E9B4-C3CF0B0B3EAF}</Project>
+      <Project>{391948FE-D03A-BCAD-FC2C-EE1638A598A6}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{84F32E11-9EC7-68FF-C2AB-014667BA6F55}</Project>
+      <Project>{E03D49FD-76A4-98BC-44D3-D64025A4032B}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{14F26428-511C-D84B-1FD0-DA623A8D0C59}</Project>
+      <Project>{24BFB218-44B7-DB45-A90C-F8FFB8B644F0}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{4CF6AC21-108B-23C7-BCC2-2011DCE1566F}</Project>
+      <Project>{2C293CAD-72FC-2BFA-B1C8-45849F50AFFA}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{B47BF07D-1C05-A410-C141-1559879FB915}</Project>
+      <Project>{3F293235-391E-6D01-CB29-40F8034F8AC0}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{54A886FD-5446-38AE-BF0D-CB7AA100E6EA}</Project>
+      <Project>{7A8868FE-1388-E298-68BA-CD31E23D235F}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{F35E6C1E-6EE4-C52D-32B7-D870B8E81BA4}</Project>
+      <Project>{108AFA23-C8C0-183B-0FBD-132972C5A55A}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{CE70F4F0-326D-0B1B-F122-CC8A423A786D}</Project>
+      <Project>{3C898BBD-24CC-B159-2752-01B4C442D129}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{8053234A-5B46-3EE6-BE6D-015E5B14C695}</Project>
+      <Project>{44FE3A91-88F5-9E08-DE7E-4B21C8673151}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{E5543DE3-EC84-69B5-F358-4B0C9931A1AC}</Project>
+      <Project>{42DC113F-63AA-EEB6-8F86-5279FB64EA2B}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3DFEB81C-14C2-1A77-718A-AB8FFBFADF43}</Project>
+      <Project>{742AFBE8-7839-ECF7-F1C8-95449CBB7AE8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
