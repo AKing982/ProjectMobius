@@ -5,8 +5,8 @@ using UnityEngine;
 public class Booster : MonoBehaviour
 {
     public Rigidbody player;
-    [SerializeField] GameObject booster;
     private float BoostSpeed = 200f;
+    [SerializeField] GameObject booster;
 
     // Start is called before the first frame update
     void Start()

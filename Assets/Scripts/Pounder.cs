@@ -6,11 +6,13 @@ public class Pounder : MonoBehaviour
 {
     public Transform startMarker;
     public Transform endMarker;
-
-    public float speed = 1.0f;
     private float beginTime;
     private float journeyLength;
-   
+
+    [SerializeField] float speed = 1.0f;
+    [SerializeField] float incrementSlider = 0.5f;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +38,7 @@ public class Pounder : MonoBehaviour
         float fractionJourney = distCovered / journeyLength;
 
         // Set the position of our Slider as a fraction of the distance between markers.
-        transform.position = Vector3.Lerp(startMarker.position, endMarker.position, Mathf.PingPong(fractionJourney, 0.8f));
+        transform.position = Vector3.Lerp(startMarker.position, endMarker.position, Mathf.PingPong(fractionJourney, incrementSlider));
     }
 
 }

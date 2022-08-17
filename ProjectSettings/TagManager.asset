@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - TObstacle
+  - Booster
+  - Pad
+  - Obstacle
+  - FinishPad
+  - HalfRotatingObs
   layers:
   - Default
   - TransparentFX
