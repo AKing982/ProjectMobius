@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartingScene1.unity
     guid: 9cd31b0653e8d86458b771d593bdefc7
   - enabled: 1
-    path: Assets/Scenes/Round2.unity
+    path: Assets/Scenes/Boost.unity
     guid: 6484ea5726ac671449672ad89eb06668
+  - enabled: 1
+    path: Assets/Scenes/Chase.unity
+    guid: a4982bb8088bec44f9a8754b508f4472
   m_configObjects: {}

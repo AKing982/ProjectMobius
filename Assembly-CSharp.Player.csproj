@@ -55,13 +55,15 @@
      <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\Pounder.cs" />
      <Compile Include="Assets\Scripts\Booster.cs" />
+     <Compile Include="Assets\Scripts\PlayerOutOfBounds.cs" />
      <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
      <Compile Include="Assets\Scripts\SphereEnemy.cs" />
+     <Compile Include="Assets\Scripts\ShootingPillBox.cs" />
      <Compile Include="Assets\Scripts\PlayerObstacleCollision.cs" />
      <Compile Include="Assets\Scripts\CollisionHandler.cs" />
-     <Compile Include="Assets\Scripts\Shooting.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
  </Reference>
