@@ -6,13 +6,16 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] AudioClip thrustAudio;
     [SerializeField] float verticalSpeed = 2500f;
-    [SerializeField] float boost = 50f;
+    [SerializeField] float boost = 1500f;
     [SerializeField] ParticleSystem MainEngine;
     [SerializeField] ParticleSystem RightBooster;
     [SerializeField] ParticleSystem LeftBooster;
 
     Rigidbody player; 
     AudioSource m_AudioSource;
+
+    private Vector3 currentMovementVector;
+    private Vector3 normalMovementVector = Vector3.up;
 
     // Start is called before the first frame update
     void Start()
@@ -130,7 +133,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Boost()
     {
-        player.velocity = Vector3.up * boost * Time.deltaTime; 
+        currentMovementVector += normalMovementVector * boost;
+        
+        // TODO: Add Code to smooth out the boost movement
+        
+        player.transform.Translate(currentMovementVector * Time.smoothDeltaTime);
     }
 
 }
